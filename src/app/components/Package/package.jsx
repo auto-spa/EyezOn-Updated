@@ -1,5 +1,6 @@
-// components/Package.jsx
+"use client";
 import Link from "next/link";
+import { useState } from "react";
 import { FaCheckCircle } from "react-icons/fa";
 
 const Package = () => {
@@ -141,51 +142,80 @@ const Package = () => {
     },
   ];
 
+
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const handlePrev = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? packages.length - 2 : prevIndex - 2
+    );
+  };
+
+  const handleNext = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex + 2 >= packages.length ? 0 : prevIndex + 2
+    );
+  };
+
   return (
-    <section className="py-16 bg-black text-white">
+    <section className="py-16 bg-white text-[white]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-4xl font-bold uppercase mb-4">Our Packages</h2>
-        <p className="text-xl mb-8">
+        <h2 className="text-4xl font-bold uppercase mb-4 text-[#912ED9]">Our Packages</h2>
+        <p className="text-xl mb-8 text-black">
           Experience the best with our tailored packages!
         </p>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          {packages.map((pkg, index) => (
-            <div key={index} className="bg-purple-700 rounded-lg p-8 shadow-lg">
-              <h3 className="text-2xl font-bold uppercase mb-2">{pkg.title}</h3>
-              <p className="text-4xl font-extrabold mb-4">
-                {pkg.price}{" "}
-                <span className="text-lg font-normal">/Starting at</span>
-              </p>
-              <hr className="border-t border-white/30 my-4" />
+        <div className="relative">
+          {/* Slider Buttons */}
+          <button
+            onClick={handlePrev}
+            className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-black text-white p-3 rounded-full shadow-lg hover:bg-purple-800"
+          >
+            &#10094;
+          </button>
+          <button
+            onClick={handleNext}
+            className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-black text-white p-3 rounded-full shadow-lg hover:bg-purple-800"
+          >
+            &#10095;
+          </button>
 
-              <div className="grid grid-cols-2 gap-4">
-                {pkg.features.map((feature, i) => (
-                  <div key={i} className="flex items-center gap-4">
-                    <div className="flex-shrink-0 w-6 h-6">
-                      <FaCheckCircle className="text-white w-full h-full" />
+          {/* Display Two Cards */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {packages.slice(currentIndex, currentIndex + 2).map((pkg, index) => (
+              <div
+                key={index}
+                className="bg-[#912ED9] rounded-lg p-8 shadow-lg transition-transform"
+              >
+                <h3 className="text-2xl font-bold uppercase mb-2">
+                  {pkg.title}
+                </h3>
+                <p className="text-4xl font-extrabold mb-4">
+                  {pkg.price}{" "}
+                  <span className="text-lg font-normal">/Starting at</span>
+                </p>
+                <hr className="border-t border-white/30 my-4" />
+
+                <div className="grid grid-cols-2 gap-4">
+                  {pkg.features.map((feature, i) => (
+                    <div key={i} className="flex items-center gap-4">
+                      <div className="flex-shrink-0 w-6 h-6">
+                        <FaCheckCircle className="text-white w-full h-full" />
+                      </div>
+                      <span className="leading-tight">{feature}</span>
                     </div>
-                    <span className="leading-tight">{feature}</span>
-                    
-                  </div>
-                  
-                ))}
-                
+                  ))}
+                </div>
+                <Link href="https://book.squareup.com/appointments/g74ppxgb2rbmal/location/LH1DBHXC19NYZ/services">
+                  <button className="inline-block border-2 border-white text-white font-semibold py-2 px-6 rounded-full hover:bg-white hover:text-black transition mt-5">
+                    Book Now
+                  </button>
+                </Link>
               </div>
-              <Link href="https://book.squareup.com/appointments/g74ppxgb2rbmal/location/LH1DBHXC19NYZ/services">
-            <button className="inline-block border-2 border-white text-white font-semibold py-2 px-6 rounded-full hover:bg-white hover:text-black transition mt-5">
-              Book Now
-            </button>
-          </Link>
-        
-
-            </div>
-            
-          ))}
+            ))}
+          </div>
         </div>
-        
       </div>
-     
     </section>
   );
 };

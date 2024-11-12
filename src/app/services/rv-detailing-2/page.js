@@ -35,7 +35,7 @@ const sections = [
         </div>
       </div>
     ),
-    imgSrc: "/images/RV Detailing.png",
+    imgSrc: "/images/RV-Detailing.jpg",
   },
 ];
 

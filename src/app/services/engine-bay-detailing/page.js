@@ -49,7 +49,7 @@ const sections = [
         </div>
       </div>
     ),
-    imgSrc: "/images/engine.webp",
+    imgSrc: "/images/Engine-Bay-Detailing.jpg",
   },
 ];
 

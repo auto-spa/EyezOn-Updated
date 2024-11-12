@@ -35,14 +35,14 @@ const services = [
   {
     title: "Interior Detailing",
     description:
-      "Experience ideal interiors with Eyez on the Prize Auto Spa’s Interior Detailing. Our expert team carefully cleans and improves every inch, ensuring your car’s interior looks and feels brand new.",
+      "Experience ideal interiors with Eyez on the Prize Auto Spa’s Interior Detailing. Our expert team carefully cleans and improves every inch, ",
     image: "/images/interior-detailing.png",
     slug: "interior-detailing",
   },
   {
     title: "Upholstery Cleaning",
     description:
-      "Eyez on the Prize Auto Spa offers exceptional upholstery cleaning services, removing stains and odors to restore your car’s interior to mint condition.",
+      "Eyez on the Prize Auto Spa offers exceptional upholstery cleaning services, meticulously removing stubborn stains and odors to restore your car’s interior to mint, showroom-quality condition. Enjoy a refreshed, like-new feel every time you step inside!",
     image: "/images/Upholstery Cleaning.jpg",
     slug: "upholstery-cleaning",
   },
@@ -50,14 +50,14 @@ const services = [
     title: "Engine Bay Detailing",
     description:
       "Discover our Engine Bay Detailing service at Eyez on the Prize Auto Spa. We carefully clean and restore your engine bay, ensuring it looks as good as new.",
-    image: "/images/interior-detailing.png",
+    image: "/images/Engine-Bay-Detailing.jpg",
     slug: "engine-bay-detailing",
   },
   {
     title: "RV Detailing",
     description:
-      "Eyez on the Prize Auto Spa offers efficient RV detailing services, ensuring your RV looks outstanding inside and out. Experience excellent cleaning, polishing, and detailing customized specifically for your home on wheels.",
-    image: "/images/RV Detailing.png",
+      "Eyez on the Prize Auto Spa offers efficient RV detailing services, ensuring your RV looks outstanding inside and",
+    image: "/images/RV-Detailing.jpg",
     slug: "rv-detailing-2",
   },
   {
@@ -78,7 +78,7 @@ const services = [
     title: "Boating Detailing",
     description:
       "Eyez on the Prize Auto Spa specializes in outstanding boat detailing services. Our skilled team delivers thorough cleaning and polishing to keep your boat looking brilliant.",
-    image: "/images/Boating Detailing.png",
+    image: "/images/Boat-Detailing.jpg",
     slug: "boating-detailing",
   },
 ];

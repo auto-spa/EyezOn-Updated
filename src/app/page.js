@@ -36,13 +36,14 @@ export default function Home() {
 {/* <Quote/> */}
 <Featured/>
 <AboutU/>
-{/* <Package/> */}
+
 {/* <ChooseUs/> */}
 <ChooseUsU/>
 {/* <Testimonial/> */}
 {/* <Gallery/> */}
 <HorizontalGallery/>
 <TestimonialsU/>
+<Package/>
 <ContactForm/>
 {/* <FooterU/> */}
 
