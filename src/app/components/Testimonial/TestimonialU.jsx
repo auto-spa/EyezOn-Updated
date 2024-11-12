@@ -50,7 +50,7 @@ const TestimonialsU = () => {
 
   return (
     <div
-      className="relative bg-purple-600 text-white py-16 px-4 overflow-hidden"
+      className="relative bg-[#912ED9] text-white py-16 px-4 overflow-hidden"
       style={{
         clipPath: "polygon(0 5%, 100% 0, 100% 100%, 0 95%)",
       }}
@@ -79,7 +79,7 @@ const TestimonialsU = () => {
               className="bg-gray-800 p-6 rounded-lg shadow-lg w-80 h-60 flex flex-col justify-between"
             >
               <div className="flex justify-left mb-2">
-                <div className="text-purple-500">★★★★★</div>
+                <div className="text-[#912ED9]">★★★★★</div>
               </div>
               <p className="text-gray-300 mb-4 overflow-hidden text-ellipsis">
                 {testimonial.review}

@@ -5,7 +5,7 @@ import React from "react";
 const Featured = () => {
   return (
     <div
-      className="relative bg-purple-600 text-white p-8 md:p-16 overflow-hidden"
+      className="relative bg-[#912ED9] text-white p-8 md:p-16 overflow-hidden"
       style={{
         clipPath: "polygon(0 5%, 100% 0, 100% 100%, 0 95%)",
       }}
@@ -29,7 +29,7 @@ const Featured = () => {
             have imperfections in the paint.
           </p>
           <a href="/gallery">
-          <button className="px-6 py-2 border border-white text-white rounded-md hover:bg-white hover:text-purple-700 transition">
+          <button className="px-6 py-2 border border-white text-white rounded-md hover:bg-white hover:text-[#912ED9] transition">
             View Portfolio
           </button>
           </a>

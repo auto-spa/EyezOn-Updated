@@ -29,7 +29,7 @@ const AboutUs = () => {
 
       {/* Text Section */}
       <div className="w-full md:w-1/2 text-center md:text-left">
-        <h4 className="text-sm font-semibold text-purple-600 uppercase mb-2">About Us</h4>
+        <h4 className="text-sm font-semibold text-[#912ED9] uppercase mb-2">About Us</h4>
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Passion Meets Experience</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae lacinia sapien. Fusce tincidunt bibendum risus, sed venenatis massa pellentesque et. Duis felis odio, laoreet non viverra vel, commodo id elit.

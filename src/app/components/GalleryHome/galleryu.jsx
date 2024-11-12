@@ -42,12 +42,12 @@ const HorizontalGallery = () => {
     <div className="text-center py-16 px-4 bg-white overflow-hidden">
       <div className="max-w-6xl mx-auto">
         {/* Section Title */}
-        <h4 className="text-sm font-semibold text-purple-600 uppercase mb-2">Portfolio</h4>
+        <h4 className="text-sm font-semibold text-[#912ED9] uppercase mb-2">Portfolio</h4>
         <h2 className="text-3xl md:text-4xl font-bold mb-4">One Word: Shine</h2>
         
         {/* View Portfolio Button */}
         <a href='/gallery'>
-        <button className="mt-4 px-6 py-2 bg-purple-600 text-white font-semibold rounded-md hover:bg-purple-700 transition">
+        <button className="mt-4 px-6 py-2 bg-[#912ED9] text-white font-semibold rounded-md hover:bg-purple-700 transition">
           View Portfolio
         </button>
         </a>

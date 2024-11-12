@@ -13,7 +13,7 @@ const ServiceCard = ({ title, description, image,link }) => {
       onMouseLeave={() => setHovered(false)}
     >
       {/* Purple Overlay */}
-      <div className="absolute inset-0 bg-purple-900 opacity-60"></div>
+      <div className="absolute inset-0 bg-[#912ED9]  opacity-60"></div>
 
       {/* Text Content */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-4 transition-opacity duration-300">

@@ -7,7 +7,7 @@ const ContactForm = () => {
     <div className="max-w-6xl mx-auto py-16 px-4 md:flex md:space-x-12">
       {/* Form Section */}
       <div className="md:w-1/2">
-        <h4 className="text-sm font-semibold text-purple-600 uppercase mb-2">Contact</h4>
+        <h4 className="text-sm font-semibold text-[#912ED9] uppercase mb-2">Contact</h4>
         <h2 className="text-3xl font-bold mb-6">Get In Touch Today</h2>
 
         {/* Form Fields */}
@@ -18,7 +18,7 @@ const ContactForm = () => {
               <input
                 type="text"
                 placeholder="Enter your first and last name"
-                className="w-full border border-purple-300 p-2 rounded-md outline-none focus:border-purple-600"
+                className="w-full border border-purple-300 p-2 rounded-md outline-none focus:border-[#912ED9]"
               />
             </div>
             <div className="flex-1">
@@ -26,7 +26,7 @@ const ContactForm = () => {
               <input
                 type="tel"
                 placeholder="Enter your mobile number"
-                className="w-full border border-purple-300 p-2 rounded-md outline-none focus:border-purple-600"
+                className="w-full border border-purple-300 p-2 rounded-md outline-none focus:border-[#912ED9]"
               />
             </div>
           </div>
@@ -36,7 +36,7 @@ const ContactForm = () => {
             <input
               type="email"
               placeholder="Enter your email address"
-              className="w-full border border-purple-300 p-2 rounded-md outline-none focus:border-purple-600"
+              className="w-full border border-purple-300 p-2 rounded-md outline-none focus:border-[#912ED9]"
             />
           </div>
 
@@ -45,7 +45,7 @@ const ContactForm = () => {
             <input
               type="text"
               placeholder="Enter your vehicle brand and model"
-              className="w-full border border-purple-300 p-2 rounded-md outline-none focus:border-purple-600"
+              className="w-full border border-purple-300 p-2 rounded-md outline-none focus:border-[#912ED9]"
             />
           </div>
 
@@ -53,15 +53,15 @@ const ContactForm = () => {
             <label className="block font-semibold mb-1">What services are you interested in?</label>
             <div className="flex items-center space-x-4">
               <label className="flex items-center">
-                <input type="checkbox" className="mr-2 text-purple-600" />
+                <input type="checkbox" className="mr-2 text-[#912ED9]" />
                 Ceramic Coating
               </label>
               <label className="flex items-center">
-                <input type="checkbox" className="mr-2 text-purple-600" />
+                <input type="checkbox" className="mr-2 text-[#912ED9]" />
                 Paint Correction
               </label>
               <label className="flex items-center">
-                <input type="checkbox" className="mr-2 text-purple-600" />
+                <input type="checkbox" className="mr-2 text-[#912ED9]" />
                 Mobile Detailing
               </label>
             </div>
@@ -71,13 +71,13 @@ const ContactForm = () => {
             <label className="block font-semibold mb-1">Additional Information</label>
             <textarea
               placeholder="Tell us anything else you think is important"
-              className="w-full border border-purple-300 p-2 rounded-md outline-none focus:border-purple-600 h-24"
+              className="w-full border border-purple-300 p-2 rounded-md outline-none focus:border-[#912ED9] h-24"
             />
           </div>
 
           <button
             type="submit"
-            className="mt-4 px-6 py-2 bg-purple-600 text-white font-semibold rounded-md hover:bg-purple-700 transition"
+            className="mt-4 px-6 py-2 bg-[#912ED9] text-white font-semibold rounded-md hover:bg-purple-700 transition"
           >
             Send Your Enquiry
           </button>

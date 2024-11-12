@@ -32,7 +32,7 @@ export default function Navbar() {
               alt="Logo"
               className="h-12 object-contain"
             />
-            <span className="ml-2 text-sm font-bold text-purple-500"></span>
+            <span className="ml-2 text-sm font-bold text-[#912ED9]"></span>
           </a>
 
           {/* Mobile Menu Button */}
@@ -68,8 +68,8 @@ export default function Navbar() {
                 <li key={index}>
                   <a
                     href={item.href}
-                    className={`block py-2 px-3 text-white hover:text-purple-500 rounded md:hover:bg-transparent md:p-0 ${
-                      item.label === "Home" ? "text-purple-500" : ""
+                    className={`block py-2 px-3 text-white hover:text-[#912ED9] rounded md:hover:bg-transparent md:p-0 ${
+                      item.label === "Home" ? "text-[#912ED9]" : ""
                     }`}
                     onClick={() => setIsOpen(false)}
                   >
@@ -83,7 +83,7 @@ export default function Navbar() {
           {/* Contact Us Button */}
           <a
             href="https://book.squareup.com/appointments/g74ppxgb2rbmal/location/LH1DBHXC19NYZ/services"
-            className="hidden md:inline-block bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-white hover:text-purple-600 transition-colors"
+            className="hidden md:inline-block bg-[#912ED9] text-white px-4 py-2 rounded-md hover:bg-white hover:text-purple-600 transition-colors"
           >
             Book Now
           </a>
