@@ -8,14 +8,14 @@ const ChooseUsU = () => {
       className="relative bg-cover bg-center text-white py-16 px-4 inset-0 bg-black opacity-90"
       style={{ backgroundImage: "url('/images/s59.jpg')" }}
     >
-      <div className="absolute inset-0 bg-black opacity-50"></div> {/* Dark overlay */}
+      <div className="absolute inset-0 bg-black opacity-90"></div> {/* Dark overlay */}
       
       <div className="relative max-w-4xl mx-auto text-center z-10">
         {/* Section Title */}
-        <h4 className="text-sm font-semibold text-[#912ED9]  uppercase mb-2">Benefits</h4>
+        <h4 className="text-sm  text-[#912ED9]  uppercase mb-2 font-bold">Benefits</h4>
         <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Choose Us?</h2>
         <p className="text-gray-200 mb-10">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae lacinia sapien. Fusce tincidunt bibendum risus, sed venenatis massa pellentesque et. Duis felis odio, laoreet non viverra vel, commodo id elit.
+        At Eyez on the Prize Auto Spa, we take vehicle detailing to the next level. Our expert group is dedicated to creating the shine of your vehicle, interior and exterior, through the use of excellent products and the latest techniques. We know how important your vehicle is to you, so we customized our services to meet your unique wishes, ensuring an ideal finish each time. From deep indoor cleaning to perfect outdoor polishing, we guarantee your vehicle’s look will be outstanding. Choose Eyez on the Prize Auto Spa for our passion, attention to detail, and commitment to making every customer smile. Let us deliver the best to your vehicle!
         </p>
 
         {/* Benefits Grid with Custom Layout */}

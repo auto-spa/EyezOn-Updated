@@ -30,12 +30,12 @@ const AboutUs = () => {
       {/* Text Section */}
       <div className="w-full md:w-1/2 text-center md:text-left">
         <h4 className="text-sm font-semibold text-[#912ED9] uppercase mb-2">About Us</h4>
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Passion Meets Experience</h2>
+        <h2 className="text-1xl md:text-2xl font-bold text-gray-900 mb-4">Discover How We Bring Outstanding Excellence to Car Detailing!</h2>
         <p className="text-gray-600 leading-relaxed mb-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae lacinia sapien. Fusce tincidunt bibendum risus, sed venenatis massa pellentesque et. Duis felis odio, laoreet non viverra vel, commodo id elit.
+        At Eyez at the Prize Auto Spa, we specialize in top-class mobile auto detailing services in Charlotte, NC, catering to vehicles and boats with recognized interest in detail. Our complete car cleaning and detailing services in Charlotte are designed to give your vehicle a new life from the inside out. We provide professional boat waxing and polishing services in Charlotte, making sure your boat looks great on the water. 
         </p>
         <p className="text-gray-600 leading-relaxed">
-          Praesent eros diam, molestie eget condimentum eget, tempus nec nisi. Nullam fermentum gravida mi, non interdum augue egestas vel. Nullam eget rhoncus ex. Ut sed dolor dui.
+        Our car exterior cleaning services carefully remove every part of the dirt, while our interior and exterior detailing services in Charlotte repair your car to showroom condition. Trust us to enhance your vehicle’s look and protect its value with our expert detailing strategies. Choose Eyez on the Prize Auto Spa for excellence in every detail.
         </p>
       </div>
     </div>

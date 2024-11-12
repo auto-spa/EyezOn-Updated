@@ -4,7 +4,7 @@ import ChooseUs from "./components/ChooseUs/ChooseUs";
 import ChooseUsU from "./components/ChooseUs/ChooseUsU";
 import ContactForm from "./components/Contact/ContactU";
 import Featured from "./components/Featured/Feature";
-import FooterU from "./components/Footer/footerU";
+
 
 import Gallery from "./components/GalleryHome/gallery";
 import HorizontalGallery from "./components/GalleryHome/galleryu";
@@ -48,7 +48,7 @@ export default function Home() {
 {/* <FooterU/> */}
 
 
-{/* <Footer/> */}
+
    </>
   );
 }

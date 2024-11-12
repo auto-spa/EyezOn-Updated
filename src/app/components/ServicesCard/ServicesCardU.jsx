@@ -47,13 +47,13 @@ const ServiceCards = () => {
     {
       title: "Ceramic Coating",
       description: "Protect your vehicle with a high-quality ceramic coating.",
-      image: "/path-to-ceramic-coating.jpg",
+      image: "/images/ceramic.png",
       link:"/services/ceramic-coating"
     },
     {
       title: "Interior Detailing",
       description: "Convenient detailing services brought directly to you.",
-      image: "/path-to-mobile-detailing.jpg",
+      image: "/images/Interior-Detailing.jpg",
       link:"/services/interior-detailing"
     },
   ];

@@ -2,7 +2,7 @@ import Head from 'next/head';
 import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "./components/Navbar/Navbar";
-import Footer from "./components/Footer/footer";
+
 import { MetadataProvider } from "./components/MetaDataContext";
 import Metadata from "./components/Metadata";
 import Navbar1 from './components/Navbar/Navbar1';
@@ -252,7 +252,7 @@ export default function RootLayout({ children }) {
           <Navbar1/>
           <Metadata />
           {children}
-          {/* <Footer /> */}
+          
           <FooterU/>
         </MetadataProvider>
       </body>
