@@ -1,7 +1,6 @@
 import React from 'react'
 import { FaLongArrowAltRight } from 'react-icons/fa';
-import About from '../components/About/about';
-import ChooseUs from '../components/ChooseUs/ChooseUs';
+
 import AboutUs from '../components/About/AboutU';
 import ChooseUsU from '../components/ChooseUs/ChooseUsU';
 

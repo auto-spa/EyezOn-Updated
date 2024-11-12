@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactUs from '../components/Contact/contact'
+
 import ContactForm from '../components/Contact/ContactU'
 import { FaLongArrowAltRight } from 'react-icons/fa'
 
