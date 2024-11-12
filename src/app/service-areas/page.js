@@ -4,8 +4,8 @@ import { FaLongArrowAltRight } from 'react-icons/fa'
 
 const page = () => {
   return (
-    <div className='bg-gradient-to-r from-black via-black to-purple-900'>
-           <div className="relative min-h-[60vh] bg-gradient-to-r from-purple-500 to-black bg-center bg-no-repeat bg-cover z-0">
+    <div className='bg-gradient-to-r from-black via-black to-[#912ED9]'>
+           <div className="relative min-h-[60vh] bg-gradient-to-r from-[#912ED9] to-black bg-center bg-no-repeat bg-cover z-0">
 
 <div className="absolute inset-0 bg-[url('/images/services-bg.jpg')] bg-center bg-no-repeat bg-cover opacity-[0.26] transition-all duration-300"></div>
 <div className="relative z-10 p-10 w-full text-center">

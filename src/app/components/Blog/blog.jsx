@@ -339,7 +339,7 @@ const Blog1 = () => {
   };
 
   return (
-    <div className="py-12 bg-gradient-to-r from-purple-500 to-black bg-center bg-no-repeat bg-cover z-0">
+    <div className="py-12 bg-gradient-to-r from-[#912ED9] to-black bg-center bg-no-repeat bg-cover z-0">
       <div className="container mx-auto">
         <motion.div
           className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"
@@ -355,7 +355,7 @@ const Blog1 = () => {
             >
               <div className="relative flex flex-col overflow-hidden transition-all duration-200 transform bg-white border-2 border-[#7100BB] rounded-xl shadow-[0_4px_6px_-1px_rgba(0,0,0,0.4),0_2px_4px_-1px_rgba(0,0,0,0.2)] hover:shadow-lg hover:-translate-y-1">
                 {/* Blog Tag */}
-                <span className="absolute top-2 right-2 bg-purple-400 text-black px-2 py-1 text-xs font-bold rounded-md z-10">
+                <span className="absolute top-2 right-2 bg-[#912ED9] text-black px-2 py-1 text-xs font-bold rounded-md z-10">
                   Blog
                 </span>
                 <Link

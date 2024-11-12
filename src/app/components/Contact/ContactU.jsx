@@ -1,13 +1,15 @@
 // ContactForm.jsx
 "use client";
-import React from 'react';
+import React from "react";
 
 const ContactForm = () => {
   return (
     <div className="max-w-6xl mx-auto py-16 px-4 md:flex md:space-x-12">
       {/* Form Section */}
       <div className="md:w-1/2">
-        <h4 className="text-sm font-semibold text-[#912ED9] uppercase mb-2">Contact</h4>
+        <h4 className="text-sm font-semibold text-[#912ED9] uppercase mb-2">
+          Contact
+        </h4>
         <h2 className="text-3xl font-bold mb-6">Get In Touch Today</h2>
 
         {/* Form Fields */}
@@ -50,7 +52,9 @@ const ContactForm = () => {
           </div>
 
           <div>
-            <label className="block font-semibold mb-1">What services are you interested in?</label>
+            <label className="block font-semibold mb-1">
+              What services are you interested in?
+            </label>
             <div className="flex items-center space-x-4">
               <label className="flex items-center">
                 <input type="checkbox" className="mr-2 text-[#912ED9]" />
@@ -68,7 +72,9 @@ const ContactForm = () => {
           </div>
 
           <div>
-            <label className="block font-semibold mb-1">Additional Information</label>
+            <label className="block font-semibold mb-1">
+              Additional Information
+            </label>
             <textarea
               placeholder="Tell us anything else you think is important"
               className="w-full border border-purple-300 p-2 rounded-md outline-none focus:border-[#912ED9] h-24"
@@ -86,10 +92,13 @@ const ContactForm = () => {
 
       {/* Map and Info Section */}
       <div className="md:w-1/2 mt-12 md:mt-0">
-        <h2 className="text-xl font-bold mb-4">What Happens After You Click Send</h2>
+        <h2 className="text-xl font-bold mb-4">
+          What Happens After You Click Send
+        </h2>
         <p className="text-gray-700 mb-4">
-          After you have sent your message, we will be in contact within 24 hours to discuss the service and next steps.
-          We’re always happy to provide free advice so you can make the best-informed decision.
+          After you have sent your message, we will be in contact within 24
+          hours to discuss the service and next steps. We’re always happy to
+          provide free advice so you can make the best-informed decision.
         </p>
         <p className="font-semibold">Monday - Sunday: 9:00am - 7:00pm</p>
 
