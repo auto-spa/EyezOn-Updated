@@ -24,7 +24,7 @@ const ServiceCard = ({ title, description, image,link }) => {
             <h2 className="text-2xl font-bold">{title}</h2>
             <p className="mt-2">{description}</p>
             <a href={link} target="_blank" rel="noopener noreferrer">
-            <button className="mt-4 px-4 py-2 bg-transparent border border-white text-white font-semibold rounded-md hover:bg-white hover:border-purple-600 hover:text-purple-600 transition">
+            <button className="mt-4 px-4 py-2 bg-transparent border border-white text-white font-semibold rounded-md hover:bg-white hover:border-[#912ED9] hover:text-[#912ED9] transition">
               Learn More
             </button>
             </a>

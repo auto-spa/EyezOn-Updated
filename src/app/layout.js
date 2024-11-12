@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import localFont from "next/font/local";
 import "./globals.css";
-import Navbar from "./components/Navbar/Navbar";
+
 
 import { MetadataProvider } from "./components/MetaDataContext";
 import Metadata from "./components/Metadata";
