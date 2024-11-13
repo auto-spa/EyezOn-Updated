@@ -5,8 +5,8 @@ import { FaStar, FaGem, FaHome, FaUserShield, FaCommentDots } from 'react-icons/
 const ChooseUsU = () => {
   return (
     <div
-      className="relative bg-cover bg-center text-white py-16 px-4 inset-0 bg-black opacity-80"
-      style={{ backgroundImage: "url('/images/choose.png')" }}
+      className="relative bg-cover bg-center text-white py-16 px-4 inset-0 bg-black opacity-90"
+      style={{ backgroundImage: "url('/images/plans-image.jpg')" }}
     >
       <div className="absolute inset-0 bg-black opacity-90"></div> {/* Dark overlay */}
       
