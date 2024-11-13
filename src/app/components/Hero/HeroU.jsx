@@ -4,11 +4,11 @@ import Navbar from '../Navbar/Navbar1';
 
 const HeroU = () => {
   return (
-    <div className="relative h-screen bg-cover bg-center" style={{ backgroundImage: 'url("/images/hero-car.jpg")' }}>
+    <div className="relative h-screen bg-cover bg-center" style={{ backgroundImage: 'url("/images/hero-updated.jpg")' }}>
         
         
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black opacity-50">
+      <div className="absolute inset-0 bg-black opacity-80">
         
       </div>
 
