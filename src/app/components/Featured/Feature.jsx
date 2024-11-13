@@ -66,7 +66,7 @@ const Featured = () => {
 
         {/* Video Section */}
         <div className="md:w-1/2 lg:w-5/12 flex justify-center md:justify-end">
-          <div className="relative w-3/4  md:w-[300px] lg:w-[300px] xl:w-[300px] h-72 md:h-[450px] lg:h-[500px] overflow-hidden rounded-lg shadow-lg mx-auto mb-8">
+          <div className="relative  sm:w-4/5 md:w-[300px] lg:w-[300px] xl:w-[300px] h-72 md:h-[450px] lg:h-[500px] overflow-hidden rounded-lg shadow-lg mx-auto mb-8">
             <video
               ref={videoRef} // Assign the video reference
               src="/images/car-video.mp4"
